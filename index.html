@@ -1,21 +1,381 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trafico</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-    <title>TRAFICO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container-xxl p-0 main-container position-relative">
-        <img class="scene" src="images/Scene.png" alt="scene">
 
+<div class="container-xxl p-0 main-bg pb-5">
+    <img src="images/Scene.png" class="img-fluid position-absolute" style="min-height: 500px; object-fit: cover; z-index: -1">
+    <div class="container-xxl my-container">
+
+        <nav class="navbar navbar-expand-lg mb-5">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link nav-link-shadow" href="#about">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-shadow" href="#howTo">HOW TO</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-shadow" href="#faqs">FAQS</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-shadow active" aria-current="page" href="#contact">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <p class="display-4 jumbotron">Your awesome<br>traffic permit<br>consultant.</p>
+        <a href="#" class="nav-link active d-inline-block mt-5 p-3 mb-5">GET STARTED <img src="images/Union.png" class="ps-2 pe-2"></a>
+    </div>
+
+
+    <div style="margin-top: 8%">
+        <div class="row">
+            <div class="col-5"><img src="images/mobel.png" class="img-fluid prepare-animation image-from-left"></div>
+        </div>
+    </div>
+</div>
+
+<div class="container-xxl mt-5 my-container" id="about">
+    <div class="row">
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+            <h1 class="mb-5">ABOUT US</h1>
+            <p style="line-height: 40px; font-weight: 300">The occupational traffic permit is one of the most important things in the company when carrying out freight transport.  In fact, it is a prerequisite for doing business traffic at all. </p>
+            <div class="boxed mt-5">
+                How do you do when you need to obtain a commercial traffic permit for freight transport to your business?
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="images/Illustration.png" class="img-fluid prepare-animation image-from-right" alt="">
+        </div>
+    </div>
+</div>
+
+
+<div class="container-xxl mt-5 my-container" id="howTo">
+    <div class="row d-flex">
+        <div class="col-md-6 order-2 order-md-1">
+            <img src="images/illustrations.png" class="img-fluid prepare-animation image-from-left" alt="">
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-center order-1 order-md-2">
+            <h1 class="mb-5">HOW TO APPLY</h1>
+            <p style="line-height: 40px; font-weight: 300">When applying for a traffic permit, there are certain requirements that you must meet that are included in the examination: requirements for professional knowledge, solid establishment, good reputation and financial resources. Important to remember is to confirm your application for a traffic permit by the company's company signer or CEO.</p>
+        </div>
 
     </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</div>
+
+
+<div class="container-xxl" id="faqs" >
+    <div class="faq-container position-relative">
+        <div class="my-container">
+            <div class="faq card mb-3 border-0 bg-transparent">
+                <div class="row g-0 pt-5">
+                    <div class="col-md-5 d-flex justify-content-center flex-column order-2 order-md-1">
+                        <h1>FAQ</h1>
+                        <p class="card-text faq-text">Questions and Answers<br> on Professional Traffic<br>Permits:</p>
+
+                    </div>
+                    <div class="col-md-7 order-1 order-md-2 d-none d-md-block">
+                        <img src="images/Group14.png" class="img-fluid rounded-start" alt="about us"  style="max-width: 508px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="padding-bottom: 100px">
+            <div class="col-sm-1 d-none d-md-block"></div>
+            <div class="col-md-5 col-sm-6 col-12">
+                <div class="accordion accordion-flush" id="accordionFirstColumn">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading1">
+                            <button
+                                    class="accordion-button collapsed align-middle" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+                                What is a professional traffic permit?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse1"
+                             class="accordion-collapse collapse" aria-labelledby="flush-heading1"
+                             data-bs-parent="#accordionFirstColumn">
+                            <div class="accordion-body">Traffic permits are a requirement for conducting professional traffic.</div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading2">
+                            <button
+                                    class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+                                When is a professional traffic permit needed?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse2"
+                             class="accordion-collapse collapse" aria-labelledby="flush-heading2"
+                             data-bs-parent="#accordionFirstColumn">
+                            <div class="accordion-body">Some short text</div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading3">
+                            <button
+                                    class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                                Where to look for a traffic permit?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse3"
+                             class="accordion-collapse collapse" aria-labelledby="flush-heading3"
+                             data-bs-parent="#accordionFirstColumn">
+                            <div class="accordion-body">Some short text</div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading4">
+                            <button
+                                    class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                                Some long Title for traffico website as a ReactJS challenge for the best candidates
+                            </button>
+                        </h2>
+                        <div id="flush-collapse4"
+                             class="accordion-collapse collapse" aria-labelledby="flush-heading4"
+                             data-bs-parent="#accordionFirstColumn">
+                            <div class="accordion-body">Very very very long text to see how the text is responsive.
+                                A will add some more words just to be sure we have couple of lines of text for this card.
+                                Hope it is very well arranged.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading5">
+                            <button
+                                    class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+                                2. Where to look for a traffic permit?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse5"
+                             class="accordion-collapse collapse" aria-labelledby="flush-heading5"
+                             data-bs-parent="#accordionFirstColumn">
+                            <div class="accordion-body">Some short text</div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading6">
+                            <button
+                                    class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+                                3. Where to look for a traffic permit?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse6"
+                             class="accordion-collapse collapse" aria-labelledby="flush-heading6"
+                             data-bs-parent="#accordionFirstColumn">
+                            <div class="accordion-body">Some short text</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-6 col-12">
+                <div class="accordion accordion-flush" id="accordionSecondColumn">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading7">
+                            <button
+                                    class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+                                4. Where to look for a traffic permit?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse7"
+                             class="accordion-collapse collapse" aria-labelledby="flush-heading7"
+                             data-bs-parent="#accordionSecondColumn">
+                            <div class="accordion-body">Some short text</div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading8">
+                            <button
+                                    class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapse8">
+                                5. Where to look for a traffic permit?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse8"
+                             class="accordion-collapse collapse" aria-labelledby="flush-heading8"
+                             data-bs-parent="#accordionSecondColumn">
+                            <div class="accordion-body">Some short text</div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading9">
+                            <button
+                                    class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapse9">
+                                6. Where to look for a traffic permit?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse9"
+                             class="accordion-collapse collapse" aria-labelledby="flush-heading9"
+                             data-bs-parent="#accordionSecondColumn">
+                            <div class="accordion-body">Some short text</div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading10">
+                            <button
+                                    class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapse10">
+                                7. Where to look for a traffic permit?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse10"
+                             class="accordion-collapse collapse" aria-labelledby="flush-heading10"
+                             data-bs-parent="#accordionSecondColumn">
+                            <div class="accordion-body">Some short text</div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading11">
+                            <button
+                                    class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapse11">
+                                8. Where to look for a traffic permit?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse11"
+                             class="accordion-collapse collapse" aria-labelledby="flush-heading11"
+                             data-bs-parent="#accordionSecondColumn">
+                            <div class="accordion-body">Some short text</div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading12">
+                            <button
+                                    class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse12" aria-expanded="false" aria-controls="flush-collapse12">
+                                9. Where to look for a traffic permit?
+                            </button>
+                        </h2>
+                        <div id="flush-collapse12"
+                             class="accordion-collapse collapse" aria-labelledby="flush-heading12"
+                             data-bs-parent="#accordionSecondColumn">
+                            <div class="accordion-body">Some short text</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading13">
+                            <button style="background-color: #facdc8; color: #EE4D47"
+                                    class="accordion-button collapsed text-center d-bl" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapse13">
+                                <div class="w-100 text-center">LOAD MORE</div>
+                            </button>
+                        </h2>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1 d-none d-md-block"></div>
+
+        </div>
+
+        <div class="right-mask position-absolute"></div>
+    </div>
+</div>
+
+<div class="container-xxl" id="contact">
+    <div class="footer position-relative">
+        <div class="trekmobil d-flex align-items-end">
+            <img src="images/VectorPink.png" alt="Vector pink" style="margin-top: 110px; z-index: 3">
+            <img class="prepare-animation image-from-left" src="images/trekmobil.png" alt=Trekmobil" style="margin-left: -123px; z-index: 2">
+            <img src="images/VectorBlue.png" alt="Vector blue" style="margin-left: -100px; z-index: 1">
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-2 d-none d-md-block"></div>
+            <div class="col-md-4 col-12">
+                <div class="boxed bg-transparent text-white" style="font-weight: 300">
+                    We provide traffic management<br> consultants so you get started<br> quickly, contact us for a quote<br>today!
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <form class="bg-white p-5 floating-form">
+                    <div class="mb-3">
+                        <label for="InputName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="InputName" aria-describedby="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="InputEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="InputEmail">
+                    </div>
+                    <a href="" class="nav-link active d-inline-block mt-5 p-3 mb-5">GET STARTED <img src="images/Union.png" class="ps-2 pe-2"></a>
+
+                </form>
+            </div>
+
+            <div class="col-md-2 d-none d-md-block"></div>
+        </div>
+
+
+        <div class="my-container d-none d-md-block" style="padding-top: 60px; margin-bottom: 60px">
+            <nav class="navbar navbar-expand-lg mb-5">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" class="img-fluid">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="bi bi-list"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarToggler">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link nav-link-shadow" href="#">ABOUT</a></li>
+                            <li class="nav-item"><a class="nav-link nav-link-shadow" href="#">HOW TO</a></li>
+                            <li class="nav-item"><a class="nav-link nav-link-shadow" href="#">FAQS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="bottom-mask position-absolute">
+            <img src="images/Vector13.png" alt="Vector 13">
+        </div>
+    </div>
+</div>
+
+<div class="container-xxl my-container mb-3 d-flex justify-content-between" style="padding-top: 20px;">
+    <div class="copyright">Copyright @ 2019</div>
+    <div class="d-flex justify-content-between">
+        <a href="https://www.facebook.com/" target="_blank" class="d-block me-4"><img src="images/f.png" alt="facebook"></a>
+        <a href="https://www.twitter.com/" target="_blank" class="d-block me-4"><img src="images/t.png" alt="twitter"></a>
+        <a href="https://www.instagram.com/" target="_blank" class="d-block"><img src="images/i.png" alt="instagram"></a>
+    </div>
+</div>
+
 </body>
 </html>
